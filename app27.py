@@ -55,9 +55,9 @@ black = Color(0, 0, 0)
 
 ## Wettervorhersage einrichten
 # API key for OpenWeather API
-api_key = "bbdfb34fb97b47d43ed9b09f8bd7f7fb"
+api_key = "YOUR_API_KEY"
 # API endpoint for Berlin weather forecast
-url = "http://api.openweathermap.org/data/2.5/weather?q=Berlin&appid=bbdfb34fb97b47d43ed9b09f8bd7f7fb"
+url = "http://api.openweathermap.org/data/2.5/weather?q=CITYNAME&appid=YOUR_API_KEY"
 # Make API request
 response = requests.get(url)
 data = response.json()
